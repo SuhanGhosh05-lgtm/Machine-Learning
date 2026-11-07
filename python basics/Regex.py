@@ -15,7 +15,7 @@ print(re.findall('suh','abcde'))
 print(re.findall('cde','abcde'))
 
 #4---> re.sub('string present in string','string u want to replace with','string')
-print(re.sub('abc','suhan','abcshrayasi'))
+print(re.sub('abc','suhan','abcchintu'))
 
 #5---> to find digits from an entire texts
 text="my name is 123 and ph is 432"
@@ -23,7 +23,7 @@ digits=re.findall(r"\d+",text) #\d+=digits
 print(digits)
 
 #6---> to remove spaces from texts
-hehe="suhan shrayasi"
+hehe="suhan chintu"
 space=re.sub(r"\s","+",hehe) #\s=space, 
 print(space)
 
